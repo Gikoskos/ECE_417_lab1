@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>George Koskeridis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body class="container-md">
+    <main class="d-flex">
+        <section class="d-flex flex-column" id="personal-info-section">
+            <div class="d-flex flex-column justify-content-between" id="personal-info-card">
+                <div class="d-flex flex-row" id="personal-info-card-header">
+                    <img src="assets/headshot.png">
+                    <h1>George Koskeridis</h1>
+                </div>
+                <div class="d-flex flex-column" id="personal-info-card-profile">
+                    <div class="d-flex flex-row personal-info-card-profile-entry">
+                        <img src="assets/briefcase.svg">
+                        <h5>Full-stack engineer</h5>
+                    </div>
+                    <div class="d-flex flex-row personal-info-card-profile-entry">
+                        <img src="assets/home.svg">
+                        <h5>Volos</h5>
+                    </div>
+                    <div class="d-flex flex-row personal-info-card-profile-entry">
+                        <img src="assets/mail.svg">
+                        <h5>georgekoskerid@outlook.com</h5>
+                    </div>
+                    <div class="d-flex flex-row personal-info-card-profile-entry">
+                        <img src="assets/phone.svg">
+                        <h5>+30 6977777777</h5>
+                    </div>
+                </div>
+                <div class="d-flex flex-column personal-info-card-skills">
+                    <div class="d-flex flex-row personal-info-card-skills-title">
+                        <img src="assets/tool.svg">
+                        <h3>Skills</h3>
+                    </div>
+                    <div class="d-flex flex-column personal-info-card-skills-content">
+                        <div class="d-flex flex-column personal-info-card-skills-content-entry">
+                            <label for="html-skills-progress">HTML:</label>
+                            <progress id="html-skills-progress" max="100" value="99"> 99% </progress>
+                        </div>
+                        <div class="d-flex flex-column personal-info-card-skills-content-entry">
+                            <label for="css-skills-progress">CSS:</label>
+                            <progress id="css-skills-progress" max="100" value="90"> 90% </progress>
+                        </div>
+                        <div class="d-flex flex-column personal-info-card-skills-content-entry">
+                            <label for="js-skills-progress">Javascript:</label>
+                            <progress id="js-skills-progress" max="100" value="98"> 98% </progress>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column personal-info-card-skills">
+                    <div class="d-flex flex-row personal-info-card-skills-title">
+                        <img src="assets/globe.svg">
+                        <h3>Languages</h3>
+                    </div>
+                    <div class="d-flex flex-column personal-info-card-skills-content">
+                        <div class="d-flex flex-column personal-info-card-skills-content-entry">
+                            <label for="english-skills-progress">English:</label>
+                            <progress id="english-skills-progress" max="100" value="87"> 87% </progress>
+                        </div>
+                        <div class="d-flex flex-column personal-info-card-skills-content-entry">
+                            <label for="german-skills-progress">German:</label>
+                            <progress id="german-skills-progress" max="100" value="2"> 2% </progress>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="d-flex flex-column" id="experience-section">
+            <div class="d-flex flex-column experience-card">
+                <section class="d-flex flex-row experience-card-title">
+                    <img src="assets/briefcase.svg">
+                    <h1>Work Experience</h1>
+                </section>
+                <section class="d-flex flex-column experience-card-content">
+                    <div class="d-flex experience-card-entry">
+                        <div class="experience-card-entry-title">
+                            <h5>Centaur.ag</h5>
+                            <p>Platform engineer</p>
+                            <a href="https://centaur.ag/">Website</a>
+                        </div>
+                        <div class="experience-card-entry-content">
+                            <ul>
+                                <li>Feature implementation and maintenance on the centaur.ag platform.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex experience-card-entry">
+                        <div class="experience-card-entry-title">
+                            <h5>Healthcare-Experience</h5>
+                            <p>Full-stack engineer</p>
+                            <a href="https://he-experience.com/">Website</a>
+                        </div>
+                        <div class="experience-card-entry-content">
+                            <ul>
+                            <li>Engineered, designed and developed a dashboard web-app from scratch, that
+                            comes with a fully-responsive SPA front-end and a web-server with RESTful API
+                            endpoints, JWT Auth, role-based authorization, HTTP caching and more.</li>
+                            <li>Various features of the dashboard are support for widgets with dynamic filtering
+                            and layout, dark/light theming support, notifications and localization.</li>
+                            <li>The app includes an auditing system that connects to a 3DNetMedical PACS
+                            database and allows the hospital's security officer to audit all 3DNetMedical app
+                            activity and traffic. Moreover, there's an option to export audited results to
+                            CSV/JSON formats.</li>
+                            <li>Developed a WebExtensions browser addon that adds multi-monitor support to
+                            the Biotronics 3DNetMedical web-app. The add-on includes a custom algorithm
+                            that detects all monitors and their resolutions recursively through the browser
+                            APIs (the WebExtensions standard doesn't offer monitor/display support APIs).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="d-flex flex-column experience-card">
+                <section class="d-flex flex-row experience-card-title">
+                    <img src="assets/aperture.svg">
+                    <h1>Open-source</h1>
+                </section>
+                <section class="d-flex flex-column experience-card-content">
+                    <div class="experience-card-entry">
+                        TODO: add open-source projects and contributions
+                    </div>
+                </section>
+            </div>
+            <div class="d-flex flex-column experience-card">
+                <section class="d-flex flex-row experience-card-title">
+                    <img src="assets/book-open.svg">
+                    <h1>Education</h1>
+                </section>
+                <section class="d-flex flex-column experience-card-content">
+                    <div class="d-flex experience-card-entry">
+                        <div class="experience-card-entry-title">
+                            <h5>University of Thessaly</h5>
+                            <p>Student</p>
+                            <a href="https://www.e-ce.uth.gr/">Website</a>
+                        </div>
+                        <div class="experience-card-entry-content">
+                            <ul>
+                                <li>Studying computer and electrical engineering with a focus on software engineering.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+    <footer>© 2020 George Koskeridis | MIT License</footer>
+</body>
+
+</html>
